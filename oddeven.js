@@ -24,6 +24,6 @@ app.post('/oddeven',(req,res)=>{
         res.json('odd')
     }
 })
-app.listen(process.env.POST||3004,()=>{
+app.listen(process.env.PORT||3004,()=>{
     console.log("Server started at http://localhost:3004/")
 })
